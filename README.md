@@ -4,5 +4,5 @@ Download
 --------
 
 ```groovy
-compile 'com.decay.country:country-support:0.1.0'
+compile 'com.decay.country:country-support:0.1.1'
 ```

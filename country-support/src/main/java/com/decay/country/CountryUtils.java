@@ -87,6 +87,10 @@ public class CountryUtils {
         }
         country = country.toUpperCase(Locale.ENGLISH);
 
+        return getCountry(country);
+    }
+
+    public Country getCountry(String country) {
         init();
         return mCountries != null ? mCountries.get(country) : null;
     }
